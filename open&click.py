@@ -8,8 +8,8 @@ from time import sleep
 # this block of code takes user creds
 print('')
 print('Step 1/10: Getting Credentials....')
-username = "ekowlloyd"
-password = '@Delle.15'
+username = input('enter you username: ")
+password = getpass('enter your password: ')
 print('')
 print('Step 2/10: Validating Credentials...')
 
