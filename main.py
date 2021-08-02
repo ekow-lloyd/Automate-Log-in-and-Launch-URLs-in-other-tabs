@@ -8,7 +8,7 @@ from time import sleep
 # this block of code takes user creds
 print('')
 print('Step 1/10: Getting Credentials....')
-username = input('enter you username: ")
+username = input('enter your username: ")
 password = getpass('enter your password: ')
 print('')
 print('Step 2/10: Validating Credentials...')
@@ -30,7 +30,7 @@ signIn = browser.find_element_by_id('userId')
 signIn.send_keys(username)
 
 # The cookies pop-up came at unpredictable intervals but needed to be accepted before proceeding
-# this block here wait for 10 seconds to accept the cookies pop-up before going on to validating the password
+# this block here waits for 10 seconds to accept the cookies pop-up before going on to validating the password
 print('')
 print("Step 5/10: Accepting Relevant Cookies...")
 button = browser.find_elements_by_id("onetrust-accept-btn-handler")
